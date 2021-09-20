@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100px">
+
+        <Button
+            android:id="@+id/black_text_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Черный текст"
+            android:layout_marginRight="30px"
+            android:width="600px"
+            ></Button>
+
+       <Button
+           android:id="@+id/red_text_btn"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Красный текст"
+           android:width="600px"
+           ></Button>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/size_8sp_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Размер 8SP"
+            android:layout_marginRight="30px"
+            android:width="600px"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/size_24sp_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Размер 24SP"
+            android:width="600px"
+            ></Button>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/background_white_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:gravity="center"
+            android:text="Белый фон"
+            android:width="600px"></Button>
+
+        <Button
+            android:id="@+id/background_yellow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Желтый фон"
+            android:width="600px"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
